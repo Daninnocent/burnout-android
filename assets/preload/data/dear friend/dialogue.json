@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "there was a huge gap of time between looper- man and hobbies, idk if you noticed the diffe- rence, looperman was my first song ever."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah i can tell lol, you really like electric guitars and amen breaks do you"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "don't call me out like that i don't have a lot of vsts and samples"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "i almost gotta go, but there's two more songs i wanna share with you actually-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "this one is called Dear Friend, and i wrote it for someone that means a lot to me."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "its not a very hard song, but i put a lot of effort and emotions into it, i hope you like it, lets get started!"
+		}
+	]
+}

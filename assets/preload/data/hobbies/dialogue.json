@@ -1,0 +1,39 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "uh. are you sure you were singing english?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah, something wrong?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "uhhhhh.... nothing, its fine. you ready to continue singing?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yup"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "neat! the song coming up is called Hobbies, the lyrics are about the things i like to do, check the text file i just sent you"
+		}
+	]
+}

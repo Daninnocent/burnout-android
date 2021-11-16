@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				201,
+				-47
+			],
+			"loop": false,
+			"anim": "singLEFT",
+			"fps": 24,
+			"name": "matt left note new",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-50,
+				-80
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "matt down new",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-16,
+				10
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "matt up new",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-50,
+				-53
+			],
+			"loop": false,
+			"anim": "singRIGHT",
+			"fps": 24,
+			"name": "matt right note new",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "matt idle new",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/mattshaggy",
+	"position": [
+		0,
+		200
+	],
+	"healthicon": "matt",
+	"flip_x": false,
+	"healthbar_colors": [
+		255,
+		140,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

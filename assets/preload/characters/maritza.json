@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				5
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "MARITZA NOTE DOWN",
+			"indices": []
+		},
+		{
+			"offsets": [
+				27,
+				30
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "MARITZA NOTE UP",
+			"indices": []
+		},
+		{
+			"loop": true,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "MARITZA idle dance",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-15,
+				-9
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "MARITZA NOTE RIGHT"
+		},
+		{
+			"offsets": [
+				13,
+				-10
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "MARITZA NOTE LEFT"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Maritza",
+	"position": [
+		0,
+		330
+	],
+	"healthicon": "maritza",
+	"flip_x": true,
+	"healthbar_colors": [
+		239,
+		132,
+		209
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

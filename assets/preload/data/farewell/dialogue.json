@@ -1,0 +1,32 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "that made me tear up a little"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well, im glad you liked it!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "its getting kinda late and i gotta go, everyone already left, but don't worry, the last song is short"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "this one doesn't have lyrics though, just copy me and lets have a great farewell, aight?"
+		}
+	]
+}

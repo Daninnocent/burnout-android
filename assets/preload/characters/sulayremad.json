@@ -1,0 +1,133 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-9
+			],
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "rageleft"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-8,
+				-27
+			],
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "ragedown"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-16,
+				-10
+			],
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "rageup"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-13,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "rageright"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				5,
+				-9
+			],
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "lmiss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-7,
+				-27
+			],
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "dmiss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-15,
+				-10
+			],
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "umiss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-12,
+				1
+			],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "rmiss"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "rageidle"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				94,
+				130
+			],
+			"fps": 24,
+			"anim": "fuck",
+			"indices": [],
+			"name": "fuck"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Sulayre",
+	"position": [
+		-300,
+		140
+	],
+	"healthicon": "sulayre",
+	"flip_x": true,
+	"healthbar_colors": [
+		175,
+		102,
+		206
+	],
+	"camera_position": [
+		-450,
+		50
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

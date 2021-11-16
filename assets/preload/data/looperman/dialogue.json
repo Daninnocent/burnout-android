@@ -1,0 +1,81 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "boyfriend, is that you?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "wassup"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "wow it feel weird meeting you in person, huh\\nwhat are you doing here?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "im guessing you/'re hanging out with GF, after\\nall this is the plaza."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yup"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "welp, my friends are waiting for me but since you're here i was wondering if you could help me out, is that cool?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah sure"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Basically im working on this new project of mine, but it got lyrics and lets say no one has recorded you actually singing in english..."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "so. i was wondering if you would mind singing along with me so i can record some samples? you're THE boyfriend after all."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "sounds fun"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "sulayre",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yeah! well, as soon as we start with the first song i'll send you the song files with my phone, follow my lead. Are you ready?"
+		}
+	]
+}

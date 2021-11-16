@@ -1,0 +1,23 @@
+{
+	"songs": [
+		["Looperman", "sulayre", [146, 113, 253]],
+		["Hobbies", "sulayre", [146, 113, 253]],
+		["Dear Friend", "sulayre", [146, 113, 253]],
+		["Farewell", "sulayre", [146, 113, 253]]
+	],
+
+	"weekCharacters": [
+		"sulayre",
+		"bf",
+		"gf"
+	],
+	"weekBackground": "stage",
+
+	"storyName": "FNF: Creative Burnout",
+	"weekBefore": "week 1",
+	"weekName": "Week 1",
+	"startUnlocked": true,
+
+	"hideStoryMode": false,
+	"hideFreeplay": false
+}

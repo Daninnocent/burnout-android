@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portraittalk.png">
+	<!-- Created with Adobe Animate version 20.0.3.25487 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="idle0000" x="1" y="1" width="267" height="326"/>
+	<SubTexture name="talk0000" x="269" y="1" width="264" height="318" frameX="0" frameY="-8" frameWidth="271" frameHeight="326"/>
+	<SubTexture name="talk0001" x="534" y="1" width="271" height="322" frameX="0" frameY="-4" frameWidth="271" frameHeight="326"/>
+	<SubTexture name="talk0002" x="1" y="328" width="271" height="322" frameX="0" frameY="-4" frameWidth="271" frameHeight="326"/>
+	<SubTexture name="talk0003" x="273" y="328" width="271" height="326"/>
+	<SubTexture name="talk0004" x="273" y="328" width="271" height="326"/>
+</TextureAtlas>
