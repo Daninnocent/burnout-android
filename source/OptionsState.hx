@@ -102,7 +102,7 @@ class OptionsState extends MusicBeatState
 				case 'Preferences':
 					openSubState(new PreferencesSubstate());
                                 case 'Controls Android':
-					FlxG.switchState(new options.CustomControlsState());
+					MusicBeatState.switchState(new options.CustomControlsState());
 			}
 
 		}
