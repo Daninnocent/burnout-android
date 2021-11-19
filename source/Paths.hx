@@ -226,8 +226,8 @@ class Paths
 		if (!ignoreMods && FileSystem.exists(mods(key)))
 			return File.getContent(mods(key));
 
-		if (FileSystem.exists(getPreloadPath(key)))
-			return File.getContent(getPreloadPath(key));
+		/*if (FileSystem.exists(getPreloadPath(key)))
+			return File.getContent(getPreloadPath(key));/*
 
 		if (currentLevel != null)
 		{
@@ -239,8 +239,8 @@ class Paths
 			}
 
 			levelPath = getLibraryPathForce(key, 'shared');
-			if (FileSystem.exists(levelPath))
-				return File.getContent(levelPath);
+			/*if (FileSystem.exists(levelPath))
+				return File.getContent(levelPath);*/
 		}
 		#end
 		return Assets.getText(getPath(key, TEXT));
