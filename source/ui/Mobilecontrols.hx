@@ -4,7 +4,7 @@ import flixel.FlxG;
 import flixel.group.FlxSpriteGroup;
 
 import ui.FlxVirtualPad;
-import ui.Hitbox;
+import ui.Hitboxfortheothercontols;
 
 import Config;
 
