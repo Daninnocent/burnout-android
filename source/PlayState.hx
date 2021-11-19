@@ -256,7 +256,7 @@ class PlayState extends MusicBeatState
 	var boyfriendIdleTime:Float = 0.0;
 	var boyfriendIdled:Bool = false;
 
-	var video:MP4Handler = new MP4Handler();
+	//var video:MP4Handler = new MP4Handler();
 
 	// Lua shit
 	private var luaDebugGroup:FlxTypedGroup<DebugLuaText>;
@@ -270,9 +270,9 @@ class PlayState extends MusicBeatState
 
 	override public function create()
 	{
-		#if MODS_ALLOWED
-		Paths.destroyLoadedImages(resetSpriteCache);
-		#end
+		// #if MODS_ALLOWED
+		// Paths.destroyLoadedImages(resetSpriteCache);
+		// #end
 		resetSpriteCache = false;
 
 		if (FlxG.sound.music != null)
