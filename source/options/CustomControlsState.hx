@@ -10,7 +10,7 @@ import ui.FlxVirtualPad;
 import flixel.util.FlxSave;
 import flixel.math.FlxPoint;
 import haxe.Json;
-import ui.Hitbox;
+import ui.Hitboxfortheothercontrols;
 import Config;
 #if lime
 import lime.system.Clipboard;
@@ -22,7 +22,7 @@ class CustomControlsState extends MusicBeatSubstate
 {
 
 	var _pad:FlxVirtualPad;
-	var _hb:Hitbox;
+	var _hb:Hitboxfortheothercontrols;
 
 	var exitbutton:FlxUIButton;
 	var exportbutton:FlxUIButton;
