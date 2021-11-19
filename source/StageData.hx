@@ -59,16 +59,16 @@ class StageData {
 		var rawJson:String = null;
 		var path:String = Paths.getPreloadPath('stages/' + stage + '.json');
 
-		#if MODS_ALLOWED
-		var modPath:String = Paths.modFolders('stages/' + stage + '.json');
-		if(FileSystem.exists(modPath)) {
-			rawJson = File.getContent(modPath);
-		} else {
-			rawJson = File.getContent(path);
-		}
-		#else
+		// #if MODS_ALLOWED
+		// var modPath:String = Paths.modFolders('stages/' + stage + '.json');
+		// if(FileSystem.exists(modPath)) {
+		// 	rawJson = File.getContent(modPath);
+		// } else {
+		// 	rawJson = File.getContent(path);
+		// }
+		// #else
 		rawJson = Assets.getText(path);
-		#end
+		// #end
 		return cast Json.parse(rawJson);
 	}
 }

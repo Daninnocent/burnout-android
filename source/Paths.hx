@@ -34,17 +34,17 @@ class Paths
 	#end
 	#end
 
-	public static function destroyLoadedImages(ignoreCheck:Bool = false) {
-		#if MODS_ALLOWED
-		if(!ignoreCheck && ClientPrefs.imagesPersist) return; //If there's 20+ images loaded, do a cleanup just for preventing a crash
+	// public static function destroyLoadedImages(ignoreCheck:Bool = false) {
+	// 	#if MODS_ALLOWED
+	// 	if(!ignoreCheck && ClientPrefs.imagesPersist) return; //If there's 20+ images loaded, do a cleanup just for preventing a crash
 
-		for (key => graphic in customImagesLoaded) {
-			graphic.bitmap.dispose();
-			graphic.destroy();
-		}
-		Paths.customImagesLoaded.clear();
-		#end
-	}
+	// 	for (key => graphic in customImagesLoaded) {
+	// 		graphic.bitmap.dispose();
+	// 		graphic.destroy();
+	// 	}
+	// 	Paths.customImagesLoaded.clear();
+	// 	#end
+	// }
 
 	static public var currentModDirectory:String = null;
 	static var currentLevel:String;

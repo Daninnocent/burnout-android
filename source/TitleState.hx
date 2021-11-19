@@ -55,22 +55,26 @@ class TitleState extends MusicBeatState
 
 	override public function create():Void
 	{
-		#if (polymod && !html5)
-		if (sys.FileSystem.exists('mods/')) {
-			var folders:Array<String> = [];
-			for (file in sys.FileSystem.readDirectory('mods/')) {
-				var path = haxe.io.Path.join(['mods/', file]);
-				if (sys.FileSystem.isDirectory(path)) {
-					folders.push(file);
-				}
-			}
-			if(folders.length > 0) {
-				polymod.Polymod.init({modRoot: "mods", dirs: folders});
-			}
-		}
-
-		//Gonna finish this later, probably
+	    #if android
+		FlxG.android.preventDefaultKeys = [BACK];
 		#end
+		
+		// #if (polymod && !html5)
+		// if (sys.FileSystem.exists('mods/')) {
+		// 	var folders:Array<String> = [];
+		// 	for (file in sys.FileSystem.readDirectory('mods/')) {
+		// 		var path = haxe.io.Path.join(['mods/', file]);
+		// 		if (sys.FileSystem.isDirectory(path)) {
+		// 			folders.push(file);
+		// 		}
+		// 	}
+		// 	if(folders.length > 0) {
+		// 		polymod.Polymod.init({modRoot: "mods", dirs: folders});
+		// 	}
+		// }
+
+		// //Gonna finish this later, probably
+		// #end
 		FlxG.game.focusLostFramerate = 60;
 		FlxG.sound.muteKeys = muteKeys;
 		FlxG.sound.volumeDownKeys = volumeDownKeys;
@@ -282,7 +286,7 @@ class TitleState extends MusicBeatState
 
 		var pressedEnter:Bool = FlxG.keys.justPressed.ENTER;
 
-		#if mobile
+		// #if mobile
 		for (touch in FlxG.touches.list)
 		{
 			if (touch.justPressed)
@@ -290,7 +294,7 @@ class TitleState extends MusicBeatState
 				pressedEnter = true;
 			}
 		}
-		#end
+		// #end
 
 		var gamepad:FlxGamepad = FlxG.gamepads.lastActive;
 
