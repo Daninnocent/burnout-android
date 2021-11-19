@@ -1069,7 +1069,6 @@ class PlayState extends MusicBeatState
 		
 		add(_hitbox);
 
-		#if mobileC
 		mcontrols = new Mobilecontrols();
 		switch (mcontrols.mode)
 		{
@@ -1082,7 +1081,6 @@ class PlayState extends MusicBeatState
 		trackedinputs = controls.trackedinputs;
 		controls.trackedinputs = [];
 
-		var camcontrol = new FlxCamera();
 		FlxG.cameras.add(camcontrol);
 		camcontrol.bgColor.alpha = 0;
 		mcontrols.cameras = [camcontrol];
@@ -1090,7 +1088,6 @@ class PlayState extends MusicBeatState
 		mcontrols.visible = false;
 
 		add(mcontrols);
-	    #end
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
