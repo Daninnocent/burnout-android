@@ -101,7 +101,7 @@ class CustomControlsState extends MusicBeatSubstate
 		
 		//hitboxes
 
-		_hb = new Hitbox();
+		_hb = new Hitboxfortheothercontrols();
 		_hb.visible = false;
 
 		// buttons
