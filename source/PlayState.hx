@@ -51,6 +51,7 @@ import DialogueBoxPsych;
 import Lyric.SwagLyricSection;
 import ui.Mobilecontrols;
 import ui.Hitbox;
+import ui.Hitboxfortheothercontrols;
 
 #if sys
 import sys.FileSystem;
