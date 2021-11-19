@@ -1434,8 +1434,18 @@ class PlayState extends MusicBeatState
 		mcontrols.visible = true;
 		#end
 
-		if(mania == 1 && mania == 2 && mania == 3){
+		if(SONG.mania = 1){
 			mcontrols.visible = false;
+			_hitbox.visible = true;
+		}
+		
+		if (SONG.mania = 2){
+		  mcontrols.visible = false;
+			_hitbox.visible = true;
+		}
+		
+	 if (SONG.mania = 3){
+		  mcontrols.visible = false;
 			_hitbox.visible = true;
 		}
 
