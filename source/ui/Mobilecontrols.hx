@@ -4,7 +4,7 @@ import flixel.FlxG;
 import flixel.group.FlxSpriteGroup;
 
 import ui.FlxVirtualPad;
-import ui.Hitboxfortheothercontols;
+import ui.Hitboxfortheothercontrols;
 
 import Config;
 
@@ -12,7 +12,7 @@ class Mobilecontrols extends FlxSpriteGroup
 {
 	public var mode:ControlsGroup = HITBOX;
 
-	public var _hitbox:Hitbox;
+	public var _hitbox:Hitboxfortheothercontrols;
 	public var _virtualPad:FlxVirtualPad;
 
 	var config:Config;
