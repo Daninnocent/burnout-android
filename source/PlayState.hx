@@ -1428,21 +1428,18 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-		#if mobileC
-		mcontrols.visible = true;
-		#end
+    if(SONG.mania == 0){
+			mcontrols.visible = true;
+		}
 
 		if(SONG.mania == 1){
-			mcontrols.visible = false;
 			_hitbox.visible = true;
 		}
 		if (SONG.mania == 2){
-		  mcontrols.visible = false;
 			_hitbox.visible = true;
 		}
 		
 	 if (SONG.mania == 3){
-		  mcontrols.visible = false;
 			_hitbox.visible = true;
 		}
 
@@ -3067,10 +3064,7 @@ class PlayState extends MusicBeatState
 	var transitioning = false;
 	public function endSong():Void
 	{
-		#if mobileC
 		mcontrols.visible = false;
-		#end
-
 		_hitbox.visible = false;
 
 		//Should kill you if you tried to cheat
