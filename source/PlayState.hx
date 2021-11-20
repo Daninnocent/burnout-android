@@ -49,7 +49,7 @@ import StageData;
 import FunkinLua;
 import DialogueBoxPsych;
 import Lyric.SwagLyricSection;
-import ui.Mobilecontrols;
+//import ui.Mobilecontrols;
 import ui.Hitbox;
 import ui.Hitboxfortheothercontrols;
 
@@ -264,9 +264,9 @@ class PlayState extends MusicBeatState
 
 	public static var mania = 0;
 
-	#if mobileC
+	/*#if mobileC
 	var mcontrols:Mobilecontrols; 
-	#end
+	#end*/
 	
 
 	override public function create()
@@ -1069,7 +1069,7 @@ class PlayState extends MusicBeatState
 		
 		add(_hitbox);
 
-		mcontrols = new Mobilecontrols();
+		/*mcontrols = new Mobilecontrols();
 		switch (mcontrols.mode)
 		{
 			case VIRTUALPAD_RIGHT | VIRTUALPAD_LEFT | VIRTUALPAD_CUSTOM:
@@ -1087,7 +1087,7 @@ class PlayState extends MusicBeatState
 
 		mcontrols.visible = false;
 
-		add(mcontrols);
+		add(mcontrols);*/
 
 		// if (SONG.song == 'South')
 		// FlxG.camera.alpha = 0.7;
@@ -1428,9 +1428,9 @@ class PlayState extends MusicBeatState
 
 	public function startCountdown():Void
 	{
-    if(SONG.mania == 0){
+    /*if(SONG.mania == 0){
 			mcontrols.visible = true;
-		}
+		}*/
 
 		if(SONG.mania == 1){
 			_hitbox.visible = true;
@@ -3064,7 +3064,7 @@ class PlayState extends MusicBeatState
 	var transitioning = false;
 	public function endSong():Void
 	{
-		mcontrols.visible = false;
+		//mcontrols.visible = false;
 		_hitbox.visible = false;
 
 		//Should kill you if you tried to cheat
